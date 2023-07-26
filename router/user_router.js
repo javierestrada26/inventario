@@ -6,7 +6,7 @@ router.post('/', async function(req,res){
 
     try {
         console.log(req.body);
-    
+        console.log(req.body);
         let usuario = new Usuario();
         usuario.name = req.body.name;
         usuario.email = req.body.email;
